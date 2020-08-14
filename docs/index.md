@@ -1,4 +1,18 @@
- <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css">
 <body>
-    <div class="heart"></div>
+    <div class="login-box">
+        <h1>Login</h1>
+        <div class="textbox">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <!-- <i class="fa fa-plus" aria-hidden="true"></i> -->
+            <input type="text" placeholder="Username" name="" value="">
+        </div>
+
+        <div class="textbox">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" placeholder="Password" name="" value="">
+        </div>
+
+        <input class="btn" type="button" name="" value="Sign in">
+    </div>
 </body>
